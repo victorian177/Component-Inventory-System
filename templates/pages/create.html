@@ -1,0 +1,27 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block breadcrumbs %}{% endblock breadcrumbs %}
+
+{% block content %}
+
+  <!-- [ Main Content ] start -->
+  <html>
+  
+  <form class="container-fluid mt-2" id="form"  action="" method="POST" enctype="multipart/form-data">
+  
+    Name : <input type="text " name="name"  class="form-control" placeholder=""><br/>
+     
+    Reusability:  <select class="form-control" id="exampleSelect1" name="">
+            
+    Level of Finishing:<select class="form-control" id="exampleSelect1" name="job"></select>
+    Availability   : <select class="form-control" id="exampleSelect1" name="job"></select>
+    Category :  <select class="form-control" id="exampleSelect1" name="job"></select>
+   
+    Quantity : <input type="text " name="name"  class="form-control" placeholder=""><br/>
+
+            
+    </form> 
+    </html>
+   
+  {% endblock content %}       
